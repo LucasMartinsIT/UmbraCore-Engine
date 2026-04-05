@@ -1,0 +1,23 @@
+# Pré-compilados e binários
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.out
+
+# Pastas de build (CMake ou manuais)
+build/
+bin/
+out/
+
+# Arquivos de IDEs (Visual Studio, VS Code, etc)
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.user
+
+# Logs e arquivos temporários
+*.log
+*.tmp
