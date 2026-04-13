@@ -1,0 +1,244 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "engine_build",
+					"childIndexes" : 
+					[
+						2,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-engine_build-Debug-a20072dd14ff3bcb7df5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "engine",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "engine_build/glfw_build",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-engine_build.glfw_build-Debug-87bad7aefd36030c5a4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "engine/thirdparty/glfw-3.4",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "engine_build/glfw_build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-engine_build.glfw_build.src-Debug-78c21b53c810dc993beb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "engine/thirdparty/glfw-3.4/src",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "engine_build/glfw_build/docs",
+					"jsonFile" : "directory-engine_build.glfw_build.docs-Debug-61e70e4c36447a8d6f80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "engine/thirdparty/glfw-3.4/docs"
+				},
+				{
+					"build" : "engine_build/glew_build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-engine_build.glew_build-Debug-5c01e2ebe1d47996774f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "engine/thirdparty/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GameEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "UmbraCore",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "glew",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GameEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameEngine-Debug-e6e6ae900ef45becd6c5.json",
+					"name" : "GameEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UmbraCore::@c16c5b6375c9cf67f9d1",
+					"jsonFile" : "target-UmbraCore-Debug-152792aabedae64f5eb8.json",
+					"name" : "UmbraCore",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glew::@03faa91070a4a1182ab4",
+					"jsonFile" : "target-glew-Debug-cd721d717c6ea8809f05.json",
+					"name" : "glew",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glew_s::@03faa91070a4a1182ab4",
+					"jsonFile" : "target-glew_s-Debug-f62cc7ed60a3a6317b11.json",
+					"name" : "glew_s",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@940fda26a5ce206a55ee",
+					"jsonFile" : "target-glfw-Debug-b8881e30dbd47e4591d4.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@e2687ee93bd19681d0a9",
+					"jsonFile" : "target-uninstall-Debug-c6f88e2d1c605eae9e9d.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@940fda26a5ce206a55ee",
+					"jsonFile" : "target-update_mappings-Debug-e8eac665739be2f25397.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug",
+		"source" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

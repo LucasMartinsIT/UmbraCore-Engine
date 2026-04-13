@@ -1,23 +1,36 @@
-# Pré-compilados e binários
+# --- Visual Studio (Arquivos Temporários e Cache) ---
+.vs/
+*.db
+*.opendb
+*.ipch
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Compilação e Binários (Não versionar o que é gerado) ---
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
 *.exe
 *.dll
 *.lib
-*.obj
-*.o
-*.out
+*.pdb
+*.exp
+*.ilk
 
-# Pastas de build (CMake ou manuais)
+# --- Pastas de Build (Caso use CMake futuramente) ---
 build/
-bin/
 out/
 
-# Arquivos de IDEs (Visual Studio, VS Code, etc)
-.vs/
-.vscode/
-*.sln
-*.vcxproj
+# --- Arquivos de Usuário (Configurações locais) ---
 *.vcxproj.user
+.vscode/
 
-# Logs e arquivos temporários
+# --- Logs e Temporários ---
 *.log
 *.tmp
+*.bak

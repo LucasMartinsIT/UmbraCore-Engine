@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n9phlk"
-      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n9phlk"
+      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cq2g6m"
+      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cq2g6m"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -119,11 +119,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n9phlk'
+        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cq2g6m'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_53012
-        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_53012.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_53012.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_53012.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_53012.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_53012.exe /implib:cmTC_53012.lib /pdb:cmTC_53012.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33c7c
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_33c7c.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_33c7c.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_33c7c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_33c7c.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_33c7c.exe /implib:cmTC_33c7c.lib /pdb:cmTC_33c7c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -163,8 +163,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-q0z8so"
-      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-q0z8so"
+      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hcn0ee"
+      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hcn0ee"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -174,11 +174,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-q0z8so'
+        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hcn0ee'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2fda5
-        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_2fda5.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_2fda5.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_2fda5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2fda5.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_2fda5.exe /implib:cmTC_2fda5.lib /pdb:cmTC_2fda5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_05664
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /showIncludes /FoCMakeFiles\\cmTC_05664.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_05664.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_05664.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_05664.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_05664.exe /implib:cmTC_05664.lib /pdb:cmTC_05664.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -216,28 +216,28 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
+      - "engine/thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c0c5wu"
-      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c0c5wu"
+      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-te8p1d"
+      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-te8p1d"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/thirdparty/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c0c5wu'
+        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-te8p1d'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7fec3
-        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7fec3.dir\\src.c.obj /FdCMakeFiles\\cmTC_7fec3.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c0c5wu\\src.c"
-        FAILED: CMakeFiles/cmTC_7fec3.dir/src.c.obj 
-        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7fec3.dir\\src.c.obj /FdCMakeFiles\\cmTC_7fec3.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c0c5wu\\src.c"
-        C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c0c5wu\\src.c(1): fatal error C1083: Não é possível abrir arquivo incluir: 'pthread.h': No such file or directory
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_78e59
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_78e59.dir\\src.c.obj /FdCMakeFiles\\cmTC_78e59.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-te8p1d\\src.c"
+        FAILED: CMakeFiles/cmTC_78e59.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_78e59.dir\\src.c.obj /FdCMakeFiles\\cmTC_78e59.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-te8p1d\\src.c"
+        C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-te8p1d\\src.c(1): fatal error C1083: Não é possível abrir arquivo incluir: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -247,29 +247,29 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
-      - "thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
+      - "engine/thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v2jzch"
-      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v2jzch"
+      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uk5u3b"
+      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uk5u3b"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/thirdparty/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v2jzch'
+        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uk5u3b'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c0744
-        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c0744.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_c0744.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-v2jzch\\CheckFunctionExists.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_c0744.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c0744.dir\\CheckFunctionExists.c.obj  /out:cmTC_c0744.exe /implib:cmTC_c0744.lib /pdb:cmTC_c0744.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_c0744.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_c0744.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c0744.dir\\CheckFunctionExists.c.obj  /out:cmTC_c0744.exe /implib:cmTC_c0744.lib /pdb:cmTC_c0744.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c0744.dir\\CheckFunctionExists.c.obj /out:cmTC_c0744.exe /implib:cmTC_c0744.lib /pdb:cmTC_c0744.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c0744.dir/intermediate.manifest CMakeFiles\\cmTC_c0744.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_38d98
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_38d98.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_38d98.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-uk5u3b\\CheckFunctionExists.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_38d98.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_38d98.dir\\CheckFunctionExists.c.obj  /out:cmTC_38d98.exe /implib:cmTC_38d98.lib /pdb:cmTC_38d98.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_38d98.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_38d98.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_38d98.dir\\CheckFunctionExists.c.obj  /out:cmTC_38d98.exe /implib:cmTC_38d98.lib /pdb:cmTC_38d98.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_38d98.dir\\CheckFunctionExists.c.obj /out:cmTC_38d98.exe /implib:cmTC_38d98.lib /pdb:cmTC_38d98.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_38d98.dir/intermediate.manifest CMakeFiles\\cmTC_38d98.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: não é possível abrir o arquivo 'pthreads.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -280,29 +280,29 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
-      - "thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
+      - "engine/thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c55mir"
-      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c55mir"
+      source: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4qucq5"
+      binary: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4qucq5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/thirdparty/glfw-3.4/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glfw-3.4/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c55mir'
+        Change Dir: 'C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-4qucq5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0c24d
-        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0c24d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_0c24d.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c55mir\\CheckFunctionExists.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0c24d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0c24d.dir\\CheckFunctionExists.c.obj  /out:cmTC_0c24d.exe /implib:cmTC_0c24d.lib /pdb:cmTC_0c24d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_0c24d.exe 
-        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0c24d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0c24d.dir\\CheckFunctionExists.c.obj  /out:cmTC_0c24d.exe /implib:cmTC_0c24d.lib /pdb:cmTC_0c24d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0c24d.dir\\CheckFunctionExists.c.obj /out:cmTC_0c24d.exe /implib:cmTC_0c24d.lib /pdb:cmTC_0c24d.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0c24d.dir/intermediate.manifest CMakeFiles\\cmTC_0c24d.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_61324
+        [1/2] C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_61324.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_61324.dir\\ /FS -c "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-4qucq5\\CheckFunctionExists.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_61324.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_61324.dir\\CheckFunctionExists.c.obj  /out:cmTC_61324.exe /implib:cmTC_61324.lib /pdb:cmTC_61324.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_61324.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_61324.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_61324.dir\\CheckFunctionExists.c.obj  /out:cmTC_61324.exe /implib:cmTC_61324.lib /pdb:cmTC_61324.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_61324.dir\\CheckFunctionExists.c.obj /out:cmTC_61324.exe /implib:cmTC_61324.lib /pdb:cmTC_61324.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_61324.dir/intermediate.manifest CMakeFiles\\cmTC_61324.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: não é possível abrir o arquivo 'pthread.lib'\x0d
         ninja: build stopped: subcommand failed.
         
