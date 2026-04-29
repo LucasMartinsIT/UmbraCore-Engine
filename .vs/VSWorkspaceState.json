@@ -10,7 +10,9 @@
     "\\engine",
     "\\engine\\source",
     "\\engine\\source\\graphics",
+    "\\engine\\source\\render",
     "\\source"
   ],
+  "SelectedNode": "\\source\\Game.cpp",
   "PreviewInSolutionExplorer": false
 }

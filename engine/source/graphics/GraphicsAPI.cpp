@@ -1,6 +1,15 @@
 #include "graphics/GraphicsAPI.h"
 #include "graphics/ShaderProgram.h"
+#include "render/Material.h"
+#include "render/Mesh.h"
 #include<iostream>
+
+/*Notations for me Lucão,
+    ShaderProgram tells openGL how to shade pixels
+    Material stores the shader and any uniform values
+    Mesh holds the actual geometry to draw
+    Graphics API manages unified access to thease componets above
+*/
 
 namespace eng
 {
@@ -56,9 +65,63 @@ namespace eng
         return std::make_shared<ShaderProgram>(shaderProgramID);
 	}
 
+    GLuint GraphicsAPI::CreateVertexBuffer(const std::vector<float>& vertices)
+    {
+        GLuint VBO = 0;
+        glGenBuffers(1, &VBO);
+        glBindBuffer(GL_ARRAY_BUFFER, VBO);
+        glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(float), vertices.data(), GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        return VBO;
+    }
+    GLuint GraphicsAPI::CreateIndexBuffer(const std::vector<uint32_t>& indices)
+    {
+        GLuint EBO = 0;
+        glGenBuffers(1, &EBO);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(uint32_t), indices.data(), GL_STATIC_DRAW);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+        return EBO;
+    }
+
+    void GraphicsAPI::SetClearColor(float r, float g, float b, float a)
+    {
+        glClearColor(r, g, b, a);
+    }
+    void GraphicsAPI::ClearBuffers()
+    {
+        glClear(GL_COLOR_BUFFER_BIT);
+    }
+
     void GraphicsAPI::BindShaderProgram(ShaderProgram* shaderProgram)
     {
+        if (shaderProgram)
+        {
+            shaderProgram->Bind();
+        }
         shaderProgram->Bind();
     }
 
+    void GraphicsAPI::BindMaterial(Material* material)
+    {
+        if (material)
+        {
+            material->Bind();
+        }
+    }
+
+    void GraphicsAPI::BindMesh(Mesh* mesh)
+    {
+        if (mesh)
+        {
+            mesh->Bind();
+        }
+    }
+    void GraphicsAPI::DrawMesh(Mesh* mesh)
+    {
+        if (mesh)
+        {
+            mesh->Draw();
+        }
+    }
 }

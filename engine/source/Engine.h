@@ -1,6 +1,7 @@
 #pragma once
 #include "input/InputManager.h"
 #include "graphics/GraphicsAPI.h"
+#include "render/RenderQueue.h"
 #include <memory>
 #include <chrono>
 
@@ -29,6 +30,7 @@ namespace eng
 		Application* GetApplication();
 		InputManager& GetInputManager();
 		GraphicsAPI& GetGraphicsAPI();
+		RenderQueue& GetRenderQueue();
 
 	private:
 		// Using unique_ptr so the engine automatically manages the app's memory and avoids leaks
@@ -40,6 +42,7 @@ namespace eng
 		GLFWwindow* m_window = nullptr;
 		InputManager m_inputManager;
 		GraphicsAPI m_graphicsAPI; 
+		RenderQueue m_renderQueue;
 
 	};
 }

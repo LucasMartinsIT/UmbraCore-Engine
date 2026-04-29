@@ -7,32 +7,68 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:source\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\GraphicsAPI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\source\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:source\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\GraphicsAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\render\\Material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\ShaderProgram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\eng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\render\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\ShaderProgram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\ShaderProgram.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\eng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\GraphicsAPI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\GraphicsAPI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\RenderQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\render\\RenderQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\RenderQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\render\\RenderQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\CmakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\CmakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\render\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\VertexLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\graphics\\VertexLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\render\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +78,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Material.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Material.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\render\\Material.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Material.cpp",
+              "RelativeToolTip": "engine\\source\\render\\Material.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-29T13:56:23.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Material.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Material.h",
+              "RelativeDocumentMoniker": "engine\\source\\render\\Material.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Material.h",
+              "RelativeToolTip": "engine\\source\\render\\Material.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T13:54:10.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShaderProgram.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\graphics\\ShaderProgram.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.cpp",
+              "RelativeToolTip": "engine\\source\\graphics\\ShaderProgram.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-29T13:53:11.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShaderProgram.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.h",
+              "RelativeDocumentMoniker": "engine\\source\\graphics\\ShaderProgram.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.h",
+              "RelativeToolTip": "engine\\source\\graphics\\ShaderProgram.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T13:52:16.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\source\\Game.h",
+              "RelativeDocumentMoniker": "source\\Game.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\source\\Game.h",
+              "RelativeToolTip": "source\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T12:00:35.996Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -52,94 +153,142 @@
               "RelativeDocumentMoniker": "source\\Game.cpp",
               "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\source\\Game.cpp",
               "RelativeToolTip": "source\\Game.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T15:35:21.549Z",
+              "WhenOpened": "2026-04-28T18:07:50.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Engine.cpp",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.cpp",
-              "RelativeDocumentMoniker": "engine\\source\\Engine.cpp",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.cpp",
-              "RelativeToolTip": "engine\\source\\Engine.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T15:18:02.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Engine.h",
               "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h",
               "RelativeDocumentMoniker": "engine\\source\\Engine.h",
               "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h",
               "RelativeToolTip": "engine\\source\\Engine.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T15:16:37.386Z"
+              "WhenOpened": "2026-04-28T20:21:01.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "eng.h",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h",
-              "RelativeDocumentMoniker": "engine\\source\\eng.h",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h",
-              "RelativeToolTip": "engine\\source\\eng.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T15:15:41.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GraphicsAPI.cpp",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.cpp",
-              "RelativeDocumentMoniker": "engine\\source\\graphics\\GraphicsAPI.cpp",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.cpp",
-              "RelativeToolTip": "engine\\source\\graphics\\GraphicsAPI.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\Engine.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.cpp",
+              "RelativeToolTip": "engine\\source\\Engine.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T15:14:37.125Z"
+              "WhenOpened": "2026-04-28T20:23:03.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "GraphicsAPI.h",
               "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.h",
               "RelativeDocumentMoniker": "engine\\source\\graphics\\GraphicsAPI.h",
               "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.h",
               "RelativeToolTip": "engine\\source\\graphics\\GraphicsAPI.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T15:14:23.775Z"
+              "WhenOpened": "2026-04-28T11:36:20.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShaderProgram.cpp",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.cpp",
-              "RelativeDocumentMoniker": "engine\\source\\graphics\\ShaderProgram.cpp",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.cpp",
-              "RelativeToolTip": "engine\\source\\graphics\\ShaderProgram.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "GraphicsAPI.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\graphics\\GraphicsAPI.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\GraphicsAPI.cpp",
+              "RelativeToolTip": "engine\\source\\graphics\\GraphicsAPI.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-13T12:02:16.529Z"
+              "WhenOpened": "2026-04-28T11:39:39.732Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ShaderProgram.h",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.h",
-              "RelativeDocumentMoniker": "engine\\source\\graphics\\ShaderProgram.h",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\ShaderProgram.h",
-              "RelativeToolTip": "engine\\source\\graphics\\ShaderProgram.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Title": "eng.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h",
+              "RelativeDocumentMoniker": "engine\\source\\eng.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h",
+              "RelativeToolTip": "engine\\source\\eng.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-13T12:02:06.207Z"
+              "WhenOpened": "2026-04-28T19:11:56.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RenderQueue.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\RenderQueue.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\render\\RenderQueue.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\RenderQueue.cpp",
+              "RelativeToolTip": "engine\\source\\render\\RenderQueue.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-28T19:10:48.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RenderQueue.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\RenderQueue.h",
+              "RelativeDocumentMoniker": "engine\\source\\render\\RenderQueue.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\RenderQueue.h",
+              "RelativeToolTip": "engine\\source\\render\\RenderQueue.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T19:10:35.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VertexLayout.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\VertexLayout.h",
+              "RelativeDocumentMoniker": "engine\\source\\graphics\\VertexLayout.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\graphics\\VertexLayout.h",
+              "RelativeToolTip": "engine\\source\\graphics\\VertexLayout.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T11:10:52.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CmakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\CmakeLists.txt",
+              "RelativeDocumentMoniker": "engine\\CmakeLists.txt",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\CmakeLists.txt",
+              "RelativeToolTip": "engine\\CmakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-18T16:22:07.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Mesh.h",
+              "RelativeDocumentMoniker": "engine\\source\\render\\Mesh.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Mesh.h",
+              "RelativeToolTip": "engine\\source\\render\\Mesh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T11:12:16.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Mesh.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Mesh.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\render\\Mesh.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\render\\Mesh.cpp",
+              "RelativeToolTip": "engine\\source\\render\\Mesh.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-28T11:18:48.361Z"
             }
           ]
         }
