@@ -9,9 +9,7 @@
     "",
     "\\engine",
     "\\engine\\source",
-    "\\engine\\source\\scene",
-    "\\source"
+    "\\engine\\source\\scene"
   ],
-  "SelectedNode": "\\engine\\source\\scene\\Scene.cpp",
   "PreviewInSolutionExplorer": false
 }

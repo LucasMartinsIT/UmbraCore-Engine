@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\scene\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\scene\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\eng.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\CmakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:engine\\CmakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.h",
-              "RelativeDocumentMoniker": "engine\\source\\scene\\GameObject.h",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.h",
-              "RelativeToolTip": "engine\\source\\scene\\GameObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T12:16:46.536Z",
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.cpp",
+              "RelativeDocumentMoniker": "engine\\source\\scene\\GameObject.cpp",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.cpp",
+              "RelativeToolTip": "engine\\source\\scene\\GameObject.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwEcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T13:25:44.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "eng.h",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h",
-              "RelativeDocumentMoniker": "engine\\source\\eng.h",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\eng.h",
-              "RelativeToolTip": "engine\\source\\eng.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.h",
+              "RelativeDocumentMoniker": "engine\\source\\scene\\GameObject.h",
+              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\scene\\GameObject.h",
+              "RelativeToolTip": "engine\\source\\scene\\GameObject.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T12:16:16.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Engine.h",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h",
-              "RelativeDocumentMoniker": "engine\\source\\Engine.h",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\source\\Engine.h",
-              "RelativeToolTip": "engine\\source\\Engine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-30T12:16:11.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CmakeLists.txt",
-              "DocumentMoniker": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\CmakeLists.txt",
-              "RelativeDocumentMoniker": "engine\\CmakeLists.txt",
-              "ToolTip": "C:\\Users\\shado\\Downloads\\FACENS PROJETOS E ESTUDOS\\UMBRA CORE\\GameEngine\\engine\\CmakeLists.txt",
-              "RelativeToolTip": "engine\\CmakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-04-30T12:15:15.564Z",
+              "WhenOpened": "2026-05-04T13:17:46.393Z",
               "EditorCaption": ""
             }
           ]

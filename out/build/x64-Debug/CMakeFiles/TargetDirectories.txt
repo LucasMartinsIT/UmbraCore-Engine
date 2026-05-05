@@ -35,3 +35,8 @@ C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/bui
 C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glew_build/CMakeFiles/list_install_components.dir
 C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glew_build/CMakeFiles/install.dir
 C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glew_build/CMakeFiles/install/local.dir
+C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/CMakeFiles/edit_cache.dir
+C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/CMakeFiles/rebuild_cache.dir
+C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/CMakeFiles/list_install_components.dir
+C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/CMakeFiles/install.dir
+C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/CMakeFiles/install/local.dir

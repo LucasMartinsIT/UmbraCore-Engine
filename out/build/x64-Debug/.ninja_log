@@ -2,6 +2,7 @@
 59	470	7977978856831500	engine_build/glfw_build/src/CMakeFiles/glfw.dir/null_init.c.obj	f70e1007fd83f1ff
 23	491	7977978856476973	engine_build/glfw_build/src/CMakeFiles/glfw.dir/input.c.obj	700450c04172e285
 49	503	7977978856729982	engine_build/glfw_build/src/CMakeFiles/glfw.dir/egl_context.c.obj	6e3dd2295d92601b
+21	424	7993691939571126	engine_build/CMakeFiles/UmbraCore.dir/source/scene/Scene.cpp.obj	63e040c70d1ad15d
 68	514	7977978856929798	engine_build/glfw_build/src/CMakeFiles/glfw.dir/null_window.c.obj	fb10004fb963407f
 33	525	7977978856570282	engine_build/glfw_build/src/CMakeFiles/glfw.dir/platform.c.obj	b947f01275a95751
 14	544	7977978856389855	engine_build/glfw_build/src/CMakeFiles/glfw.dir/context.c.obj	86992d995e3c5823
@@ -28,11 +29,13 @@
 525	1043	7977978861490227	engine_build/glfw_build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	d5cd22c5ff6a232d
 555	1231	7977978861787648	engine_build/glew_build/CMakeFiles/glew_s.dir/__/__/src/glew.c.obj	6a2ba72450e61677
 69	1320	7991752695309342	engine_build/CMakeFiles/UmbraCore.dir/source/graphics/ShaderProgram.cpp.obj	6278cb2ca062e128
-96	1317	7991752695581382	CMakeFiles/GameEngine.dir/source/main.cpp.obj	dd82d8e35de05ef3
+34	934	7993698575915832	CMakeFiles/GameEngine.dir/source/main.cpp.obj	dd82d8e35de05ef3
 76	1299	7991752695381486	engine_build/CMakeFiles/UmbraCore.dir/source/graphics/GraphicsAPI.cpp.obj	9ad96d903fc1fc65
-1320	1379	7991752707816312	engine_build/UmbraCore.lib	15f2301501d9f9e5
-102	1313	7991752695633509	CMakeFiles/GameEngine.dir/source/Game.cpp.obj	ea1947207728621e
-1380	1688	7991752708410095	GameEngine.exe	420ddbcbad92bcb7
+44	1158	7993698576016637	CMakeFiles/GameEngine.dir/source/TestObject.cpp.obj	a338187eddc16d5f
+425	500	7993691943611596	engine_build/UmbraCore.lib	7a1430235f73abb0
+39	929	7993698575966281	CMakeFiles/GameEngine.dir/source/Game.cpp.obj	ea1947207728621e
+1158	1390	7993698587155490	GameEngine.exe	3e73f6c464d9e072
 81	1305	7991752695427703	engine_build/CMakeFiles/UmbraCore.dir/source/render/Material.cpp.obj	b5d18655ed6058dd
 35	1142	7991113745653587	engine_build/CMakeFiles/UmbraCore.dir/source/render/Mesh.cpp.obj	ddc70ebf649961a0
 86	1308	7991752695469725	engine_build/CMakeFiles/UmbraCore.dir/source/render/RenderQueue.cpp.obj	231656964653aa00
+70	1080	7993690345418278	engine_build/CMakeFiles/UmbraCore.dir/source/scene/GameObject.cpp.obj	d5f86880ec4ce1ef
