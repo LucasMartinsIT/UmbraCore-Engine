@@ -8,6 +8,7 @@ public:
 	bool Init() override;
 	void Update(float deltaTime) override;
 	void Destroy() override;
+
 private:
-	eng::Scene m_scene;
+	eng::Scene* m_scene = nullptr;
 };

@@ -11,12 +11,15 @@ TestObject::TestObject()
 
         out vec3 vColor;
 
-        uniform vec2 uOffset;
+        uniform mat4 uModel;
+        uniform mat4 uView;
+        uniform mat4 uProjection;
+
 
         void main()
         {
             vColor = color;
-            gl_Position = vec4(position.x + uOffset.x, position.y + uOffset.y, position.z, 1.0);
+            gl_Position = uProjection * uView * uModel * vec4(position, 1.0);
         }
     )";
 
@@ -34,7 +37,9 @@ TestObject::TestObject()
 
     auto& graphicsAPI = eng::Engine::GetInstance().GetGraphicsAPI();
     auto shaderProgram = graphicsAPI.CreateShaderProgram(vertexShaderSource, fragmentShaderSource);
-    m_material.SetShaderProgram(shaderProgram);
+    
+    auto material = std::make_shared<eng::Material>();
+    material->SetShaderProgram(shaderProgram);
 
     std::vector<float> vertices =
     {
@@ -68,39 +73,36 @@ TestObject::TestObject()
         });
     vertexLayout.stride = sizeof(float) * 6;
 
-    m_mesh = std::make_shared<eng::Mesh>(vertexLayout, vertices, indices);
+    auto mesh = std::make_shared<eng::Mesh>(vertexLayout, vertices, indices);
+
+    AddComponent(new eng::MeshComponent(material, mesh));
 }
 
 void TestObject::Update(float deltaTime)
 {
     eng::GameObject::Update(deltaTime);
 
+#if 0
+    auto position = GetPosition();
     auto& input = eng::Engine::GetInstance().GetInputManager();
     //Horizontal move
     if (input.IsKeyPressed(GLFW_KEY_A))
     {
-        m_offsetX -= 0.01f;
+        position.x -= 0.01f;
     }
     else if (input.IsKeyPressed(GLFW_KEY_D))
     {
-        m_offsetX += 0.01f;
+        position.x += 0.01f;
     }
     //Vertical move
     if (input.IsKeyPressed(GLFW_KEY_S))
     {
-        m_offsetY -= 0.01f;
+        position.y-= 0.01f;
     }
     else if (input.IsKeyPressed(GLFW_KEY_W))
     {
-        m_offsetY += 0.01f;
+        position.y += 0.01f;
     }
-
-    m_material.SetParam("uOffset", m_offsetX, m_offsetY);
-
-    eng::RenderCommand command;
-    command.material = &m_material;
-    command.mesh = m_mesh.get();
-
-    auto& renderQueue = eng::Engine::GetInstance().GetRenderQueue();
-    renderQueue.Submit(command);
+    SetPosition(position);
+#endif
 }

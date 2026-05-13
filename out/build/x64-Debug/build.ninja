@@ -253,6 +253,42 @@ build engine_build\CMakeFiles\UmbraCore.dir\source\scene\Scene.cpp.obj: CXX_COMP
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\UmbraCore.dir\UmbraCore.pdb
   TARGET_PDB = engine_build\UmbraCore.pdb
 
+build engine_build\CMakeFiles\UmbraCore.dir\source\scene\Component.cpp.obj: CXX_COMPILER__UmbraCore_unscanned_Debug C$:\Users\shado\Downloads\FACENS$ PROJETOS$ E$ ESTUDOS\UMBRA$ CORE\GameEngine\engine\source\scene\Component.cpp || cmake_object_order_depends_target_UmbraCore
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glew\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glm-1.0.1" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glfw-3.4\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine"
+  OBJECT_DIR = engine_build\CMakeFiles\UmbraCore.dir
+  OBJECT_FILE_DIR = engine_build\CMakeFiles\UmbraCore.dir\source\scene
+  TARGET_COMPILE_PDB = engine_build\CMakeFiles\UmbraCore.dir\UmbraCore.pdb
+  TARGET_PDB = engine_build\UmbraCore.pdb
+
+build engine_build\CMakeFiles\UmbraCore.dir\source\scene\components\MeshComponent.cpp.obj: CXX_COMPILER__UmbraCore_unscanned_Debug C$:\Users\shado\Downloads\FACENS$ PROJETOS$ E$ ESTUDOS\UMBRA$ CORE\GameEngine\engine\source\scene\components\MeshComponent.cpp || cmake_object_order_depends_target_UmbraCore
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glew\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glm-1.0.1" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glfw-3.4\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine"
+  OBJECT_DIR = engine_build\CMakeFiles\UmbraCore.dir
+  OBJECT_FILE_DIR = engine_build\CMakeFiles\UmbraCore.dir\source\scene\components
+  TARGET_COMPILE_PDB = engine_build\CMakeFiles\UmbraCore.dir\UmbraCore.pdb
+  TARGET_PDB = engine_build\UmbraCore.pdb
+
+build engine_build\CMakeFiles\UmbraCore.dir\source\scene\components\CameraComponent.cpp.obj: CXX_COMPILER__UmbraCore_unscanned_Debug C$:\Users\shado\Downloads\FACENS$ PROJETOS$ E$ ESTUDOS\UMBRA$ CORE\GameEngine\engine\source\scene\components\CameraComponent.cpp || cmake_object_order_depends_target_UmbraCore
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glew\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glm-1.0.1" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glfw-3.4\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine"
+  OBJECT_DIR = engine_build\CMakeFiles\UmbraCore.dir
+  OBJECT_FILE_DIR = engine_build\CMakeFiles\UmbraCore.dir\source\scene\components
+  TARGET_COMPILE_PDB = engine_build\CMakeFiles\UmbraCore.dir\UmbraCore.pdb
+  TARGET_PDB = engine_build\UmbraCore.pdb
+
+build engine_build\CMakeFiles\UmbraCore.dir\source\scene\components\PlayerControllerComponent.cpp.obj: CXX_COMPILER__UmbraCore_unscanned_Debug C$:\Users\shado\Downloads\FACENS$ PROJETOS$ E$ ESTUDOS\UMBRA$ CORE\GameEngine\engine\source\scene\components\PlayerControllerComponent.cpp || cmake_object_order_depends_target_UmbraCore
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glew\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glm-1.0.1" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glfw-3.4\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine"
+  OBJECT_DIR = engine_build\CMakeFiles\UmbraCore.dir
+  OBJECT_FILE_DIR = engine_build\CMakeFiles\UmbraCore.dir\source\scene\components
+  TARGET_COMPILE_PDB = engine_build\CMakeFiles\UmbraCore.dir\UmbraCore.pdb
+  TARGET_PDB = engine_build\UmbraCore.pdb
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target UmbraCore
@@ -261,7 +297,7 @@ build engine_build\CMakeFiles\UmbraCore.dir\source\scene\Scene.cpp.obj: CXX_COMP
 #############################################
 # Link the static library engine_build\UmbraCore.lib
 
-build engine_build\UmbraCore.lib: CXX_STATIC_LIBRARY_LINKER__UmbraCore_Debug engine_build\CMakeFiles\UmbraCore.dir\source\Engine.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\Application.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\input\InputManager.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\graphics\ShaderProgram.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\graphics\GraphicsAPI.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\render\Material.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\render\Mesh.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\render\RenderQueue.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\GameObject.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\Scene.cpp.obj || engine_build\glfw_build\src\glfw3.lib lib\libglew32d.lib
+build engine_build\UmbraCore.lib: CXX_STATIC_LIBRARY_LINKER__UmbraCore_Debug engine_build\CMakeFiles\UmbraCore.dir\source\Engine.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\Application.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\input\InputManager.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\graphics\ShaderProgram.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\graphics\GraphicsAPI.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\render\Material.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\render\Mesh.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\render\RenderQueue.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\GameObject.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\Scene.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\Component.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\components\MeshComponent.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\components\CameraComponent.cpp.obj engine_build\CMakeFiles\UmbraCore.dir\source\scene\components\PlayerControllerComponent.cpp.obj || engine_build\glfw_build\src\glfw3.lib lib\libglew32d.lib
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = engine_build\CMakeFiles\UmbraCore.dir

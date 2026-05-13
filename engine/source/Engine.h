@@ -2,6 +2,7 @@
 #include "input/InputManager.h"
 #include "graphics/GraphicsAPI.h"
 #include "render/RenderQueue.h"
+#include "scene/Scene.h"
 #include <memory>
 #include <chrono>
 
@@ -32,6 +33,9 @@ namespace eng
 		GraphicsAPI& GetGraphicsAPI();
 		RenderQueue& GetRenderQueue();
 
+		void SetScene(Scene* scene);
+		Scene* GetScene();
+
 	private:
 		// Using unique_ptr so the engine automatically manages the app's memory and avoids leaks
 		std::unique_ptr<Application> m_application;
@@ -43,6 +47,7 @@ namespace eng
 		InputManager m_inputManager;
 		GraphicsAPI m_graphicsAPI; 
 		RenderQueue m_renderQueue;
+		std::unique_ptr<Scene> m_currentScene;
 
 	};
 }
