@@ -39,7 +39,7 @@ namespace eng
 		return m_mouseKeys[button];
 	}
 
-	void InputManager::SetMousePositionOld(glm::vec2& pos)
+	void InputManager::SetMousePositionOld(const glm::vec2& pos)
 	{
 		m_mousePositionOld = pos;
 	}
@@ -49,7 +49,7 @@ namespace eng
 		return m_mousePositionOld;
 	}
 
-	void InputManager::SetMousePositionCurrent(glm::vec2& pos)
+	void InputManager::SetMousePositionCurrent(const glm::vec2& pos)
 	{
 		m_mousePositionCurrent = pos;
 	}

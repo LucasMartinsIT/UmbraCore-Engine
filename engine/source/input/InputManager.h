@@ -19,10 +19,10 @@ namespace eng
 		void SetMouseButtonPressed(int button, bool pressed);
 		bool IsMouseButtonPressed(int button);
 
-		void SetMousePositionOld(glm::vec2& pos);
+		void SetMousePositionOld(const glm::vec2& pos);
 		const glm::vec2& GetMousePositionOld() const;
 
-		void SetMousePositionCurrent(glm::vec2& pos);
+		void SetMousePositionCurrent(const glm::vec2& pos);
 		const glm::vec2& GetMousePositionCurrent() const;
 
 	private:
