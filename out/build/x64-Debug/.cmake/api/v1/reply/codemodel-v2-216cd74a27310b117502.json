@@ -194,35 +194,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "GameEngine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GameEngine-Debug-1f8aa6d82556714a5c22.json",
+					"jsonFile" : "target-GameEngine-Debug-646be190c11240f8b881.json",
 					"name" : "GameEngine",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "UmbraCore::@c16c5b6375c9cf67f9d1",
-					"jsonFile" : "target-UmbraCore-Debug-2f1159800cc181359c23.json",
+					"jsonFile" : "target-UmbraCore-Debug-83810a2d4d42cbb0384b.json",
 					"name" : "UmbraCore",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "glew::@03faa91070a4a1182ab4",
-					"jsonFile" : "target-glew-Debug-2b5d6e50d0527291c10e.json",
+					"jsonFile" : "target-glew-Debug-3692b50883da44d701b3.json",
 					"name" : "glew",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "glew_s::@03faa91070a4a1182ab4",
-					"jsonFile" : "target-glew_s-Debug-08f60e09d7b292da653e.json",
+					"jsonFile" : "target-glew_s-Debug-666be2108a9ade4fc951.json",
 					"name" : "glew_s",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "glfw::@940fda26a5ce206a55ee",
-					"jsonFile" : "target-glfw-Debug-d51a81fcf797ee247c3a.json",
+					"jsonFile" : "target-glfw-Debug-0b6ab2e88df656a1d6ae.json",
 					"name" : "glfw",
 					"projectIndex" : 2
 				},

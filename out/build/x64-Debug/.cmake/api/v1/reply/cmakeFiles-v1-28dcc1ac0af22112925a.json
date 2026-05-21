@@ -184,6 +184,9 @@
 			"path" : "engine/CmakeLists.txt"
 		},
 		{
+			"path" : "engine/config.h.in"
+		},
+		{
 			"path" : "engine/thirdparty/glfw-3.4/CMakeLists.txt"
 		},
 		{
