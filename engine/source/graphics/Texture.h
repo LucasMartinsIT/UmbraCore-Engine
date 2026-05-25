@@ -1,15 +1,20 @@
 #pragma once
 
 #include <GL/glew.h>
+#include <memory>
+#include <string>
 
 namespace eng
 {
 	class Texture
 	{
 	public:
-		Texture(int witdh, int height, int numChannels, unsigned char* data);
+		Texture(int width, int height, int numChannels, unsigned char* data);
 		~Texture();
 		GLuint GetId() const;
+		void Init(int width, int height, int numChannels, unsigned char* data);
+
+		static std::shared_ptr<Texture> Load(const std::string& path);
 
 	private:
 		int m_width = 0;

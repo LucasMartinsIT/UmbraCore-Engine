@@ -45,7 +45,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 87,
+				"line" : 91,
 				"parent" : 0
 			},
 			{
@@ -94,9 +94,21 @@
 				"parent" : 0
 			},
 			{
-				"command" : 4,
+				"command" : 3,
 				"file" : 0,
 				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 88,
 				"parent" : 0
 			}
 		]
@@ -149,6 +161,14 @@
 				},
 				{
 					"backtrace" : 11,
+					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/json"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/cgltf"
+				},
+				{
+					"backtrace" : 13,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build"
 				},
 				{

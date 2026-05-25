@@ -194,14 +194,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "GameEngine::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GameEngine-Debug-5e7ee998ce6d16a4e996.json",
+					"jsonFile" : "target-GameEngine-Debug-3f9a3cd409cbae8785cd.json",
 					"name" : "GameEngine",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "UmbraCore::@c16c5b6375c9cf67f9d1",
-					"jsonFile" : "target-UmbraCore-Debug-ebdbb42c88d14c9933d5.json",
+					"jsonFile" : "target-UmbraCore-Debug-b6223e7ffe6dfbfaadac.json",
 					"name" : "UmbraCore",
 					"projectIndex" : 1
 				},

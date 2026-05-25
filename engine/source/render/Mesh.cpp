@@ -2,6 +2,9 @@
 #include"graphics/GraphicsAPI.h"
 #include "Engine.h"
 
+#define CGLFT_IMPLEMENTATION
+#include <cgltf.h>
+
 namespace eng
 {
 	Mesh::Mesh(const VertexLayout& layout, const std::vector<float>& vertices, const std::vector<uint32_t>& indices)
@@ -80,4 +83,15 @@ namespace eng
 			glDrawArrays(GL_TRIANGLES, 0, m_vertexCount);
 		}
 	}
+
+	std::shared_ptr<Mesh> Mesh::Load(const std::string& path)
+	{
+		auto contents = Engine::GetInstance().GetFileSystem().LoadAssetsFileText(path);
+
+		if (contents.empty())
+		{
+			return nullptr;
+		}
+	}
+
 }

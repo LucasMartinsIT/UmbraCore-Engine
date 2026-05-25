@@ -43,11 +43,11 @@ namespace eng
 		//Left/Right movement
 		if (inputManager.IsKeyPressed(GLFW_KEY_A))
 		{
-			position += right * m_moveSpeed * deltaTime;
+			position -= right * m_moveSpeed * deltaTime;
 		}
 		else if (inputManager.IsKeyPressed(GLFW_KEY_D))
 		{
-			position -= right * m_moveSpeed * deltaTime;
+			position += right * m_moveSpeed * deltaTime;
 		}
 		//Vertical move
 		if (inputManager.IsKeyPressed(GLFW_KEY_S))
