@@ -1,9 +1,9 @@
 {
 	"shader":
 	{
-		"vertex": "shader/vertex.glsl",
-		"fragment": "shader/fragment.glsl"
-	}
+		"vertex": "shaders/vertex.glsl",
+		"fragment": "shaders/fragment.glsl"
+	},
 	"params":
 	{
 		"textures":

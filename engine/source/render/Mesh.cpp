@@ -84,7 +84,7 @@ namespace eng
 		}
 	}
 
-	std::shared_ptr<Mesh> Mesh::Load(const std::string& path)
+	/*std::shared_ptr<Mesh> Mesh::Load(const std::string& path)
 	{
 		auto contents = Engine::GetInstance().GetFileSystem().LoadAssetsFileText(path);
 
@@ -92,6 +92,6 @@ namespace eng
 		{
 			return nullptr;
 		}
-	}
+	}*/
 
 }
