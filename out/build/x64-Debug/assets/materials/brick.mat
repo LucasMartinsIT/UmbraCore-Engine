@@ -1,15 +1,15 @@
 {
 	"shader":
 	{
-		"vertex": "shader/vertex.glsl",
-		"fragment": "shader/fragment.glsl"
-	}
+		"vertex": "shaders/vertex.glsl",
+		"fragment": "shaders/fragment.glsl"
+	},
 	"params":
 	{
 		"textures":
 		[
 			{
-				"name": "brickTexture",
+				"name": "baseColorTexture",
 				"path": "textures/brick.png"
 			}
 		]

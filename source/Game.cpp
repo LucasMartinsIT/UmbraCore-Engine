@@ -111,7 +111,7 @@ bool Game::Init()
 
     auto objectA = m_scene->CreateObject("ObjectA");
     objectA->AddComponent(new eng::MeshComponent(material, mesh));
-    objectA->SetPosition(glm::vec3(0.0f, 2.0f, 0.0f));
+    objectA->SetPosition(glm::vec3(1.0f, 1.0f, -5.0f));
 
     auto objectB = m_scene->CreateObject("ObjectB");
     objectB->AddComponent(new eng::MeshComponent(material, mesh));
@@ -126,7 +126,21 @@ bool Game::Init()
     objectC->SetRotation(glm::vec3(1.0f, 0.0f, 1.0f));
     objectC->SetScale(glm::vec3(1.0f, 0.5f, 1.3f));
 
+    auto suzanneMesh = eng::Mesh::Load("models/Suzanne.gltf");
+	auto suzanneMaterial = eng::Material::Load("materials/suzanne.mat");
 
+	auto suzanneObject = m_scene->CreateObject("Suzanne");
+	suzanneObject->AddComponent(new eng::MeshComponent(suzanneMaterial, suzanneMesh));
+	suzanneObject->SetPosition(glm::vec3(0.0f, 0.0f, -5.0f));
+
+
+	//Trying to load a ninja model, but it doesn't work for some reason. I think it's because the ninja model is too complex and has too many vertices. I will try to load a simpler model instead.
+    /*auto ninjaMesh = eng::Mesh::Load("models/Ninja.gltf");
+    auto ninjaMaterial = eng::Material::Load("materials/ninja.mat");
+
+    auto ninjaObject = m_scene->CreateObject("Ninja");
+    ninjaObject->AddComponent(new eng::MeshComponent(ninjaMaterial,ninjaMesh));
+    ninjaObject->SetPosition(glm::vec3(0.0f, 0.0f, -3.0f));*/
 
 	eng::Engine::GetInstance().SetScene(m_scene);
 
