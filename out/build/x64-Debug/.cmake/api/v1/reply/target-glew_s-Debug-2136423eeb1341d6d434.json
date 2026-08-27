@@ -1,14 +1,18 @@
 {
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/glew32d.dll"
-		},
-		{
-			"path" : "lib/glew32d.lib"
-		},
-		{
-			"path" : "bin/glew32d.pdb"
+			"path" : "lib/libglew32d.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -17,10 +21,11 @@
 		"commands" : 
 		[
 			"add_library",
+			"install",
 			"target_link_libraries",
 			"target_compile_options",
-			"set_target_properties",
 			"add_compile_definitions",
+			"set_target_properties",
 			"target_compile_definitions",
 			"include_directories"
 		],
@@ -38,37 +43,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 95,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 106,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 111,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 134,
+				"line" : 156,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 108,
+				"line" : 135,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 96,
+				"line" : 109,
 				"parent" : 0
 			},
 			{
@@ -78,49 +71,55 @@
 				"command" : 4,
 				"file" : 1,
 				"line" : 22,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 104,
+				"line" : 100,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
 				"file" : 1,
 				"line" : 15,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
-				"command" : 6,
+				"command" : 7,
 				"file" : 1,
 				"line" : 16,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
-				"command" : 6,
+				"command" : 7,
 				"file" : 1,
 				"line" : 19,
-				"parent" : 7
+				"parent" : 5
 			},
 			{
 				"file" : 2
 			},
 			{
-				"command" : 6,
+				"command" : 7,
 				"file" : 2,
-				"line" : 64,
-				"parent" : 13
+				"line" : 67,
+				"parent" : 12
 			},
 			{
-				"command" : 6,
+				"command" : 7,
 				"file" : 2,
-				"line" : 69,
-				"parent" : 13
+				"line" : 72,
+				"parent" : 12
 			},
 			{
-				"command" : 6,
+				"command" : 7,
 				"file" : 0,
 				"line" : 86,
 				"parent" : 0
@@ -141,7 +140,7 @@
 					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od "
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"fragment" : "-GS-"
 				}
 			],
@@ -149,44 +148,41 @@
 			[
 				{
 					"backtrace" : 6,
-					"define" : "GLEW_BUILD"
-				},
-				{
-					"backtrace" : 8,
 					"define" : "GLEW_NO_GLU"
 				},
 				{
-					"backtrace" : 9,
-					"define" : "VC_EXTRALEAN"
+					"backtrace" : 7,
+					"define" : "GLEW_STATIC"
 				},
 				{
-					"define" : "glew_EXPORTS"
+					"backtrace" : 8,
+					"define" : "VC_EXTRALEAN"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 9,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glew/include"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 10,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glm-1.0.1"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/source"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/source"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 14,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glfw-3.4/include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 15,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glew/build/cmake/../../include"
 				}
 			],
@@ -207,44 +203,41 @@
 			[
 				{
 					"backtrace" : 6,
-					"define" : "GLEW_BUILD"
-				},
-				{
-					"backtrace" : 8,
 					"define" : "GLEW_NO_GLU"
 				},
 				{
-					"backtrace" : 9,
-					"define" : "VC_EXTRALEAN"
+					"backtrace" : 7,
+					"define" : "GLEW_STATIC"
 				},
 				{
-					"define" : "glew_EXPORTS"
+					"backtrace" : 8,
+					"define" : "VC_EXTRALEAN"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 9,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glew/include"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 10,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glm-1.0.1"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/source"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 13,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/source"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 14,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glfw-3.4/include"
 				},
 				{
-					"backtrace" : 16,
+					"backtrace" : 15,
 					"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/glew/build/cmake/../../include"
 				}
 			],
@@ -259,83 +252,45 @@
 	{
 		"name" : "GLEW"
 	},
-	"id" : "glew::@03faa91070a4a1182ab4",
+	"id" : "glew_s::@03faa91070a4a1182ab4",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/install/x64-Debug"
+		}
+	},
 	"interfaceLinkLibraries" : 
 	[
 		{
-			"backtrace" : 4,
+			"backtrace" : 3,
 			"fragment" : "opengl32"
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 3,
 			"fragment" : "glu32"
 		}
 	],
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "-BASE:0x62AA0000",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-nodefaultlib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-noentry",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "opengl32.lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "glu32.lib",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
-				"role" : "libraries"
-			}
-		],
-		"language" : "C"
-	},
 	"linkLibraries" : 
 	[
 		{
-			"backtrace" : 2,
-			"fragment" : "-BASE:0x62AA0000"
-		},
-		{
 			"backtrace" : 3,
-			"fragment" : "-nodefaultlib"
-		},
-		{
-			"backtrace" : 3,
-			"fragment" : "-noentry"
-		},
-		{
-			"backtrace" : 4,
 			"fragment" : "opengl32"
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 3,
 			"fragment" : "glu32"
 		}
 	],
-	"name" : "glew",
-	"nameOnDisk" : "glew32d.dll",
+	"name" : "glew_s",
+	"nameOnDisk" : "libglew32d.lib",
 	"paths" : 
 	{
 		"build" : "engine_build/glew_build",
@@ -391,5 +346,5 @@
 			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "STATIC_LIBRARY"
 }

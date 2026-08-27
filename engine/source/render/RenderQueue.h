@@ -1,33 +1,29 @@
 #pragma once
+
+#include "Common.h"
 #include <vector>
-#include "glm/mat4x4.hpp"
+#include <glm/mat4x4.hpp>
 
 namespace eng
 {
-	class Material;
-	class Mesh;
-	class GraphicsAPI;
+    class Mesh;
+    class Material;
+    class GraphicsAPI;
 
-	struct RenderCommand
-	{
-		Mesh* mesh = nullptr;
-		Material* material = nullptr;
-		glm::mat4 modelMatrix;
-	};
+    struct RenderCommand
+    {
+        Mesh* mesh = nullptr;
+        Material* material = nullptr;
+        glm::mat4 modelMatrix;
+    };
 
-	struct CameraData
-	{
-		glm::mat4 viewMatrix;
-		glm::mat4 projectionMatrix;
-	};
+    class RenderQueue
+    {
+    public:
+        void Submit(const RenderCommand& command);
+        void Draw(GraphicsAPI& graphicsAPI, const CameraData& cameraData, const std::vector<LightData>& lights);
 
-	class RenderQueue
-	{
-	public:
-		void Submit(const RenderCommand command);
-		void Draw(GraphicsAPI& graphicsAPI, const CameraData& cameraData);
-
-	private:
-		std::vector<RenderCommand> m_commands;
-	};
+    private:
+        std::vector<RenderCommand> m_commands;
+    };
 }

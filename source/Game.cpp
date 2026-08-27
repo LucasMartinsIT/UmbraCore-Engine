@@ -21,93 +21,9 @@ bool Game::Init()
 
     auto material = eng::Material::Load("materials/brick.mat");
 
-    std::vector<float> vertices =
-    {
-        //Front face
-        0.5f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-        -0.5f, 0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-        -0.5f, -0.5f, 0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-        0.5f, -0.5f, 0.5f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f,
+    
 
-        //Top face 
-        0.5f, 0.5f, -0.5f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-        -0.5f, 0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-        -0.5f, 0.5f, 0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-        0.5f, 0.5f, 0.5f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f,
-
-        //Right face
-        0.5f, 0.5f, -0.5f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-        0.5f, 0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-        0.5f, -0.5f, 0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-        0.5f, -0.5f, -0.5f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f,
-
-        //Left face
-        -0.5f, 0.5f, 0.5f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-        -0.5f, 0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-        -0.5f, -0.5f, 0.5f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f,
-
-        //Bottom face
-        0.5f, -0.5f, 0.5f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-        -0.5f, -0.5f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-        0.5f, -0.5f, -0.5f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f,
-
-        //Back face
-        -0.5f, 0.5f, -0.5f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
-        0.5f, 0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-        0.5f, -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
-        -0.5f, -0.5f, -0.5f, 1.0f, 1.0f, 0.0f, 1.0f, 0.0f
-    };
-
-    std::vector<unsigned int> indices =
-    {
-        //Front face
-        0, 1, 2,
-        0, 2, 3,
-        //Top face
-        4, 5, 6,
-        4, 6, 7,
-        //Right face
-        8, 9, 10,
-        8, 10, 11,
-        //Left face
-        12, 13, 14,
-        12, 14, 15,
-        //Bottom face
-        16, 17, 18,
-        16, 18, 19,
-        //Back face
-        20, 21, 22,
-        20, 22, 23
-    };
-
-    eng::VertexLayout vertexLayout;
-
-    //Position
-    vertexLayout.elements.push_back({
-        0,
-        3,
-        GL_FLOAT,
-        0
-        });
-    //Color
-    vertexLayout.elements.push_back({
-        1,
-        3,
-        GL_FLOAT,
-        sizeof(float) * 3
-        });
-    //UV
-    vertexLayout.elements.push_back({
-        2,
-        2,
-        GL_FLOAT,
-        sizeof(float) * 6
-        });
-    vertexLayout.stride = sizeof(float) * 8;
-
-    auto mesh = std::make_shared<eng::Mesh>(vertexLayout, vertices, indices);
+    auto mesh = eng::Mesh::CreateCube();
 
     auto objectA = m_scene->CreateObject("ObjectA");
     objectA->AddComponent(new eng::MeshComponent(material, mesh));
@@ -132,6 +48,12 @@ bool Game::Init()
 	auto suzanneObject = m_scene->CreateObject("Suzanne");
 	suzanneObject->AddComponent(new eng::MeshComponent(suzanneMaterial, suzanneMesh));
 	suzanneObject->SetPosition(glm::vec3(0.0f, 0.0f, -5.0f));
+
+    auto light = m_scene->CreateObject("Light");
+    auto lightComp = new eng::LightComponent();
+    lightComp->SetColor(glm::vec3(2.0f, 1.0f, 3.0f));
+    light->AddComponent(lightComp);
+    light->SetPosition(glm::vec3(0.0f, 5.0f, 0.0f));
 
 
 	//Trying to load a ninja model, but it doesn't work for some reason. I think it's because the ninja model is too complex and has too many vertices. I will try to load a simpler model instead.
