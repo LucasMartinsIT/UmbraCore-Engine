@@ -1,9 +1,9 @@
 #version 330 core
 
-struct Light 
+struct Light
 {
-  vec3 position;
-  vec3 color;
+    vec3 color;
+    vec3 position;
 };
 
 uniform Light uLight;
@@ -18,15 +18,15 @@ uniform sampler2D baseColorTexture;
 
 void main()
 {
-  vec3 norm = normalize(vNormal);
+    vec3 norm = normalize(vNormal);
 
-  vec3 lightDir = normalize(uLight.position - vFragPos);
+    vec3 lightDir = normalize(uLight.position - vFragPos);
 
-  float diff = max(dot(norm, lightDir), 0.0);
+    float diff = max(dot(norm, lightDir), 0.0);
 
-  vec3 diffuse = diff * uLight.color;
+    vec3 diffuse = diff * uLight.color;
 
-  vec4 texColor = texture(baseColorTexture, vUV);
+    vec4 texColor = texture(baseColorTexture, vUV);
 
-  FragColor = texColor * vec4(diffuse, 1.0);
+    FragColor = texColor * vec4(diffuse, 1.0);
 }

@@ -9,6 +9,7 @@
 
 namespace eng
 {
+	class Scene;
 	class GameObject
 	{
 	public:
@@ -17,6 +18,8 @@ namespace eng
 		const std::string& GetName() const;
 		void SetName(const std::string& name);
 		GameObject* GetParent();
+		bool SetParent(GameObject* parent);
+		Scene* GetScene();
 		bool IsAlive() const;
 		void MarkForDestroy();
 
@@ -38,18 +41,20 @@ namespace eng
 			return nullptr;
 		}
 
-		const glm::vec3 GetPosition() const;
+		const glm::vec3& GetPosition() const;
 		glm::vec3 GetWorldPosition() const;
 		void SetPosition(const glm::vec3& pos);
 
-		const glm::quat GetRotation() const;
+		const glm::quat& GetRotation() const;
 		void SetRotation(const glm::quat& rot);
 
-		const glm::vec3 GetScale() const;
+		const glm::vec3& GetScale() const;
 		void SetScale(const glm::vec3& scale);
 
 		glm::mat4 GetLocalTransform() const;
 		glm::mat4 GetWorldTransform() const;
+
+		static GameObject* LoadGLTF(const std::string& path);	
 
 	protected:
 		GameObject() = default;
@@ -57,6 +62,7 @@ namespace eng
 	private:
 		std::string m_name;
 		GameObject* m_parent = nullptr;
+		Scene* m_scene = nullptr;
 		std::vector<std::unique_ptr<GameObject>>m_children;
 		std::vector<std::unique_ptr<Component>> m_components;
 		bool m_isAlive = true;
