@@ -14,11 +14,11 @@ uniform mat4 uProjection;
 
 void main()
 {
-  vUV = uv;
+    vUV = uv;
 
-  vFragPos = vec3(uModel * vec4(position, 1.0));
+    vFragPos = vec3(uModel * vec4(position, 1.0));
 
-  vNormal = mat3(transpose(inverse(uModel))) * normal;
+    vNormal = mat3(transpose(inverse(uModel))) * normal;
 
-  gl_Position = uProjection * uView * uModel * vec4(position, 1.0);
+    gl_Position = uProjection * uView * uModel * vec4(position, 1.0);
 }

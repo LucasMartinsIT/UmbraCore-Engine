@@ -1,5 +1,5 @@
 {
-	"shader":
+	"shader": 
 	{
 		"vertex": "shaders/vertex.glsl",
 		"fragment": "shaders/fragment.glsl"
