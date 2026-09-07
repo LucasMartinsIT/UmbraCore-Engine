@@ -1,1 +1,20 @@
-.vs/ 
+# Cache do Visual Studio
+.vs/
+*.user
+*.suo
+
+# Diretórios de compilação (CMake e VS)
+out/
+build/
+bin/
+obj/
+
+# Extensões de arquivos binários e debug
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.obj
+*.log
