@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "engine_build/thirdparty/bullet3-3.25/src/Bullet3Dynamics",
+		"source" : "engine/thirdparty/bullet3-3.25/src/Bullet3Dynamics"
+	}
+}

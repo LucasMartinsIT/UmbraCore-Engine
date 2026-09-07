@@ -95,6 +95,7 @@ namespace eng
 		}
 
 		m_graphicsAPI.Init();
+		m_physicsManager.Init();
 		return m_application->Init();
 	}
 
@@ -115,6 +116,8 @@ namespace eng
 			auto now = std::chrono::high_resolution_clock::now();// Calculates the time passed since the last frame (deltaTime) 
 			float deltaTime = std::chrono::duration<float>(now - m_lastTimePoint).count();
 			m_lastTimePoint = now;
+
+			m_physicsManager.Update(deltaTime);
 
 			m_application->Update(deltaTime);
 
@@ -207,6 +210,11 @@ namespace eng
 	TextureManager& Engine::GetTextureManager()
 	{
 		return m_textureManager;
+	}
+
+	PhysicsManager& Engine::GetPhysicsManager()
+	{
+		return m_physicsManager;
 	}
 
 	Scene* Engine::GetScene()

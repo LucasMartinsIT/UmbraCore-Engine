@@ -7,7 +7,20 @@
 		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glfw_build/src/cmake_install.cmake",
 		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glfw_build/docs/cmake_install.cmake",
 		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glew_build/cmake_install.cmake",
-		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/cmake_install.cmake"
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/Bullet3OpenCL/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/Bullet3Serialize/Bullet2FileLoader/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/Bullet3Dynamics/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/Bullet3Collision/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/Bullet3Geometry/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/BulletInverseDynamics/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/BulletSoftBody/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/BulletCollision/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/BulletDynamics/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/LinearMath/cmake_install.cmake",
+		"C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/src/Bullet3Common/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

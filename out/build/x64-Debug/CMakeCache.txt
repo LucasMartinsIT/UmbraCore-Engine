@@ -14,11 +14,56 @@
 # EXTERNAL cache entries
 ########################
 
-//Build shared libraries
+//Set when you want to build the Bullet 2 demos
+BUILD_BULLET2_DEMOS:BOOL=OFF
+
+//Set when you want to build Bullet 3
+BUILD_BULLET3:BOOL=ON
+
+//Set when you want to build apps with enet TCP networking support
+BUILD_CLSOCKET:BOOL=ON
+
+//Build original Bullet CPU examples
+BUILD_CPU_DEMOS:BOOL=ON
+
+//Set when you want to build apps with enet UDP networking support
+BUILD_ENET:BOOL=ON
+
+//Set when you want to build the extras
+BUILD_EXTRAS:BOOL=OFF
+
+//Set when you want to build Bullet 3 OpenGL3+ demos
+BUILD_OPENGL3_DEMOS:BOOL=ON
+
+//Set when you want to build pybullet (Python bindings for Bullet)
+BUILD_PYBULLET:BOOL=OFF
+
+//Use shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
+
+//Build Unit Tests
+BUILD_UNIT_TESTS:BOOL=OFF
 
 //utilities
 BUILD_UTILS:BOOL=OFF
+
+//Build Bullet 2 libraries with mutex locking around certain operations
+// (required for multi-threading)
+BULLET2_MULTITHREADING:BOOL=OFF
+
+//Value Computed by CMake
+BULLET_PHYSICS_BINARY_DIR:STATIC=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25
+
+//Value Computed by CMake
+BULLET_PHYSICS_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+BULLET_PHYSICS_SOURCE_DIR:STATIC=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine/thirdparty/bullet3-3.25
+
+//Clamp rigid bodies' velocity to this value, if larger than zero.
+// Useful to prevent floating point errors or in general runaway
+// velocities in complex scenarios
+CLAMP_VELOCITIES:STRING=0
 
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe
@@ -67,6 +112,9 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C applications.
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+
+//Adds a postfix for debug-built libraries.
+CMAKE_DEBUG_POSTFIX:STRING=_Debug
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=/machine:x64
@@ -149,6 +197,9 @@ CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/18/Community/VC/T
 //make program
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe
 
+//Adds a postfix for MinsizeRelease-built libraries.
+CMAKE_MINSIZEREL_POSTFIX:STRING=_MinsizeRel
+
 //Flags used by the linker during the creation of modules during
 // all build types.
 CMAKE_MODULE_LINKER_FLAGS:STRING=/machine:x64
@@ -220,6 +271,9 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 //Flags for Windows Resource Compiler during RELWITHDEBINFO builds.
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
+//Adds a postfix for ReleaseWithDebug-built libraries.
+CMAKE_RELWITHDEBINFO_POSTFIX:STRING=_RelWithDebugInfo
+
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
 CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:x64
@@ -276,6 +330,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
+//Use VHACD in BulletRobotics and pybullet
+ENABLE_VHACD:BOOL=ON
+
 //OSMesa mode
 GLEW_OSMESA:BOOL=OFF
 
@@ -322,14 +379,77 @@ GameEngine_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 GameEngine_SOURCE_DIR:STATIC=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine
 
+//Install generated CMake files
+INSTALL_CMAKE_FILES:BOOL=ON
+
+//Set when you want to install libraries
+INSTALL_LIBS:BOOL=OFF
+
+//Add MSVC postfix for executable names (_Debug)
+INTERNAL_ADD_POSTFIX_EXECUTABLE_NAMES:BOOL=OFF
+
+//Create MSVC projectfiles that can be distributed
+INTERNAL_CREATE_DISTRIBUTABLE_MSVC_PROJECTFILES:BOOL=OFF
+
+//Create MSVC projectfiles with relative paths
+INTERNAL_CREATE_MSVC_RELATIVE_PATH_PROJECTFILES:BOOL=OFF
+
+//Internal update serialization structures
+INTERNAL_UPDATE_SERIALIZATION_STRUCTURES:BOOL=OFF
+
+//Single output directory for building all libraries.
+LIBRARY_OUTPUT_PATH:PATH=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/lib
+
 //OpenGL library for win32
 OPENGL_gl_LIBRARY:STRING=opengl32
 
 //GLU library for win32
 OPENGL_glu_LIBRARY:STRING=glu32
 
-//Use MSVC runtime library DLL
+//Use double precision
+USE_DOUBLE_PRECISION:BOOL=OFF
+
+//Use Glut
+USE_GLUT:BOOL=ON
+
+//Use Graphical Benchmark
+USE_GRAPHICAL_BENCHMARK:BOOL=ON
+
+//Compile your program with AVX instructions
+USE_MSVC_AVX:BOOL=OFF
+
+//Use MSVC /OPT:ICF COMDAT folding option
+USE_MSVC_COMDAT_FOLDING:BOOL=ON
+
+//Use MSVC /GR- disabled RTTI flags option
+USE_MSVC_DISABLE_RTTI:BOOL=ON
+
+//Use MSVC C++ exceptions option
+USE_MSVC_EXEPTIONS:BOOL=OFF
+
+//Use MSVC /fp:fast option
+USE_MSVC_FAST_FLOATINGPOINT:BOOL=ON
+
+//Use MSVC /Gy function level linking option
+USE_MSVC_FUNCTION_LEVEL_LINKING:BOOL=ON
+
+//Use MSVC Incremental Linking
+USE_MSVC_INCREMENTAL_LINKING:BOOL=OFF
+
+//Use MSVC Release Runtime Library even in Debug
+USE_MSVC_RELEASE_RUNTIME_ALWAYS:BOOL=OFF
+
+//Use MSVC Runtime Library DLL (/MD or /MDd)
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
+
+//Use MSVC /GF string pooling option
+USE_MSVC_STRING_POOLING:BOOL=ON
+
+//Use OpenVR for virtual reality
+USE_OPENVR:BOOL=OFF
+
+//Use btSoftMultiBodyDynamicsWorld
+USE_SOFT_BODY_MULTI_BODY_DYNAMICS_WORLD:BOOL=ON
 
 //Value Computed by CMake
 UmbraCore_BINARY_DIR:STATIC=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build
@@ -338,7 +458,7 @@ UmbraCore_BINARY_DIR:STATIC=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/U
 UmbraCore_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-UmbraCore_LIB_DEPENDS:STATIC=general;glfw;general;glew_s;
+UmbraCore_LIB_DEPENDS:STATIC=general;glfw;general;glew_s;general;LinearMath;general;BulletCollision;general;BulletDynamics;
 
 //Value Computed by CMake
 UmbraCore_SOURCE_DIR:STATIC=C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/engine
@@ -491,7 +611,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

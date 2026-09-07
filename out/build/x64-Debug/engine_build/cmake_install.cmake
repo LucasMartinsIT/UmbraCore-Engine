@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glfw_build/cmake_install.cmake")
   include("C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/glew_build/cmake_install.cmake")
   include("C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/glm-1.0.1/glm/cmake_install.cmake")
+  include("C:/Users/shado/Downloads/FACENS PROJETOS E ESTUDOS/UMBRA CORE/GameEngine/out/build/x64-Debug/engine_build/thirdparty/bullet3-3.25/cmake_install.cmake")
 
 endif()
 
