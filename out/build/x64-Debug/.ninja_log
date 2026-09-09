@@ -315,3 +315,13 @@
 112	3668	8105131259608914	engine_build/CMakeFiles/UmbraCore.dir/source/render/Material.cpp.obj	761000470f36a581
 3670	3935	8105131295184619	lib/UmbraCore_Debug.lib	b7cdf59f0ca146e7
 3935	4244	8105131297843124	GameEngine.exe	c557b3b8637e85f4
+110	1577	8106828030612365	CMakeFiles/GameEngine.dir/source/main.cpp.obj	5f36c2c18f86c773
+1605	1926	8106828045557812	GameEngine.exe	c557b3b8637e85f4
+73	1280	8106833356517681	engine_build/CMakeFiles/UmbraCore.dir/source/scene/components/PlayerControllerComponent.cpp.obj	cc8ff9dbae893aa
+1282	1610	8106833368616823	lib/UmbraCore_Debug.lib	b7cdf59f0ca146e7
+1610	1818	8106833371890525	GameEngine.exe	c557b3b8637e85f4
+115	692	8106856220922219	engine_build/CMakeFiles/UmbraCore.dir/source/input/InputManager.cpp.obj	f2f922e1e13c35b2
+123	1618	8106856221003141	engine_build/CMakeFiles/UmbraCore.dir/source/scene/components/PlayerControllerComponent.cpp.obj	cc8ff9dbae893aa
+108	1660	8106856220855753	engine_build/CMakeFiles/UmbraCore.dir/source/Engine.cpp.obj	4b3b2ff346b66adc
+1661	1949	8106856236384965	lib/UmbraCore_Debug.lib	b7cdf59f0ca146e7
+1949	2168	8106856239265202	GameEngine.exe	c557b3b8637e85f4

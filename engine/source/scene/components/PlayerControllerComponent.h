@@ -12,8 +12,10 @@ namespace eng
 		void Update(float deltaTime) override;
 
 	private:
-		float m_sensitivity = 0.1f;
-		float m_moveSpeed = 1.0f;
+		float m_sensitivity = 1.5f;
+		float m_moveSpeed = 3.0f;
+		float m_xRot = 0.0f;
+		float m_yRot = 0.0f;
 
 	};
 }
