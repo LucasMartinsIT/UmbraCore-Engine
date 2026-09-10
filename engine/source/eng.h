@@ -22,6 +22,5 @@
 #include "physics/PhysicsManager.h"
 #include "physics/Collider.h"
 #include "physics/RigidBody.h"
+#include "physics/KinematicCharacterController.h"
 #include "scene/components/PhysicsComponent.h"
-
-

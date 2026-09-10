@@ -55,6 +55,8 @@ set(PROJECT_SOURCE_FILES
   source/physics/Collider.cpp
   source/physics/RigidBody.h
   source/physics/RigidBody.cpp
+  source/physics/KinematicCharacterController.h
+  source/physics/KinematicCharacterController.cpp
   source/scene/components/PhysicsComponent.h
   source/scene/components/PhysicsComponent.cpp
   source/Common.h

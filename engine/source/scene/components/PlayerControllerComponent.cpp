@@ -7,6 +7,11 @@
 
 namespace eng
 {
+	void PlayerControllerComponent::Init()
+	{
+		m_kinematicController = std::make_unique<KinematicCharacterController>(0.4f, 1.2f);
+	}
+
 	void PlayerControllerComponent::Update(float deltaTime)
 	{
 		auto& inputManager = Engine::GetInstance().GetInputManager();
@@ -28,7 +33,7 @@ namespace eng
 			//Rot around X axis
 			float xDeltaAngle = -deltaY * m_sensitivity * deltaTime;
 			m_xRot += xDeltaAngle;
-			m_xRot = std::clamp(m_xRot, - 89.0f, 89.0f);
+			m_xRot = std::clamp(m_xRot, -89.0f, 89.0f);
 			glm::quat xRot = glm::angleAxis(glm::radians(m_xRot), glm::vec3(1.0f, 0.0f, 0.0f));
 
 			rotation = glm::normalize(yRot * xRot);
@@ -39,28 +44,40 @@ namespace eng
 		glm::vec3 front = rotation * glm::vec3(0.0f, 0.0f, -1.0f);
 		glm::vec3 right = rotation * glm::vec3(1.0f, 0.0f, 0.0f);
 		
-		auto position = m_owner->GetPosition();
-
+		
+		glm::vec3 move(0.0f);
 		//Left/Right movement
 		if (inputManager.IsKeyPressed(GLFW_KEY_A))
 		{
-			position -= right * m_moveSpeed * deltaTime;
+			move -= right;
 		}
 		else if (inputManager.IsKeyPressed(GLFW_KEY_D))
 		{
-			position += right * m_moveSpeed * deltaTime;
+			move += right;
 		}
 		//Vertical move
 		if (inputManager.IsKeyPressed(GLFW_KEY_S))
 		{
-			position -= front * m_moveSpeed * deltaTime;
+			move -= front;
 		}
 		else if (inputManager.IsKeyPressed(GLFW_KEY_W))
 		{
-			position += front * m_moveSpeed * deltaTime;
+			move += front;
+
 		}
-		m_owner->SetPosition(position);
-	
+
+		if (inputManager.IsKeyPressed(GLFW_KEY_SPACE))
+		{
+			m_kinematicController->Jump(glm::vec3(0.0f, 5.0f, 0.0f));
+		}
+		
+		if (glm::dot(move, move) > 0)
+		{
+			move = glm::normalize(move);
+		}
+		m_kinematicController->Walk(move * m_moveSpeed * deltaTime);
+		
+		m_owner->SetPosition(m_kinematicController->GetPosition());
 	}
 }
 
