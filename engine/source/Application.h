@@ -6,6 +6,8 @@ namespace eng
 	{
 	public:
 		// Pure virtual functions (= 0). This forces whoever creates the game to inherit this class and implement their own logic.
+		virtual ~Application() = default;
+		virtual void RegisterTypes();
 		virtual bool Init() = 0;
 		// Delta time in seconds
 		virtual void Update(float deltaTime) = 0;

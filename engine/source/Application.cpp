@@ -2,6 +2,11 @@
 
 namespace eng
 {
+	void Application::RegisterTypes()
+	{
+
+	}
+
 	// Simple getters and setters for the application close flag
 	void Application::SetNeedsToBeClosed(bool value)
 	{
