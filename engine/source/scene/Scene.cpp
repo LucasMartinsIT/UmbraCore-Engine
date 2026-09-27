@@ -5,6 +5,8 @@
 #include "scene/components/MeshComponent.h"
 #include "scene/components/PhysicsComponent.h"
 #include "scene/components/PlayerControllerComponent.h"
+#include "scene/components/AudioComponent.h"
+#include "scene/components/AudioListenerComponent.h"
 #include "Engine.h"
 
 #include <algorithm>
@@ -19,6 +21,8 @@ namespace eng
         MeshComponent::Register();
         PhysicsComponent::Register();
         PlayerControllerComponent::Register();
+        AudioComponent::Register();
+        AudioListenerComponent::Register();
     }
 
     void Scene::Update(float deltaTime)
