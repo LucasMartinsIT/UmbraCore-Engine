@@ -2,7 +2,7 @@
 #include <GL/glew.h>
 #include "graphics/VertexLayout.h"
 
-#include <glm/vec3.hpp>
+#include <glm//vec3.hpp>
 
 #include <memory>
 #include <string>
@@ -21,8 +21,8 @@ namespace eng
         void Unbind();
         void Draw();
 
-        static std::shared_ptr<Mesh> CreateSphere(float radius, int sectors, int stacks);
         static std::shared_ptr<Mesh> CreateBox(const glm::vec3& extents = glm::vec3(1.0f));
+        static std::shared_ptr<Mesh> CreateSphere(float radius, int sectors, int stacks);
 
     private:
         VertexLayout m_vertexLayout;
@@ -30,7 +30,7 @@ namespace eng
         GLuint m_EBO = 0;
         GLuint m_VAO = 0;
 
-        size_t m_vertexCount = 0;
+        size_t m_vertexCout = 0;
         size_t m_indexCount = 0;
     };
 }
