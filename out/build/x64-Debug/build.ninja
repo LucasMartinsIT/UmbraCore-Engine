@@ -93,6 +93,17 @@ build CMakeFiles\GameEngine.dir\source\Player.cpp.obj: CXX_COMPILER__GameEngine_
   TARGET_PDB = GameEngine.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\GameEngine.dir
 
+build CMakeFiles\GameEngine.dir\source\Bullet.cpp.obj: CXX_COMPILER__GameEngine_unscanned_Debug C$:\Users\shado\Downloads\FACENS$ PROJETOS$ E$ ESTUDOS\UMBRA$ CORE\GameEngine\source\Bullet.cpp || cmake_object_order_depends_target_GameEngine
+  CONFIG = Debug
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glew\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glm-1.0.1" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\source" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\stb_image" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\json" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\glfw-3.4\include" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine" -I"C:\Users\shado\Downloads\FACENS PROJETOS E ESTUDOS\UMBRA CORE\GameEngine\engine\thirdparty\miniaudio"
+  OBJECT_DIR = CMakeFiles\GameEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\GameEngine.dir\source
+  TARGET_COMPILE_PDB = CMakeFiles\GameEngine.dir\
+  TARGET_PDB = GameEngine.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GameEngine.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GameEngine
@@ -101,7 +112,7 @@ build CMakeFiles\GameEngine.dir\source\Player.cpp.obj: CXX_COMPILER__GameEngine_
 #############################################
 # Link the executable GameEngine.exe
 
-build GameEngine.exe: CXX_EXECUTABLE_LINKER__GameEngine_Debug CMakeFiles\GameEngine.dir\source\main.cpp.obj CMakeFiles\GameEngine.dir\source\Game.cpp.obj CMakeFiles\GameEngine.dir\source\TestObject.cpp.obj CMakeFiles\GameEngine.dir\source\Player.cpp.obj | lib\UmbraCore_Debug.lib lib\glfw3_Debug.lib lib\libglew32d.lib lib\LinearMath_Debug.lib lib\BulletCollision_Debug.lib lib\BulletDynamics_Debug.lib || lib\BulletCollision_Debug.lib lib\BulletDynamics_Debug.lib lib\LinearMath_Debug.lib lib\UmbraCore_Debug.lib lib\glfw3_Debug.lib lib\libglew32d.lib
+build GameEngine.exe: CXX_EXECUTABLE_LINKER__GameEngine_Debug CMakeFiles\GameEngine.dir\source\main.cpp.obj CMakeFiles\GameEngine.dir\source\Game.cpp.obj CMakeFiles\GameEngine.dir\source\TestObject.cpp.obj CMakeFiles\GameEngine.dir\source\Player.cpp.obj CMakeFiles\GameEngine.dir\source\Bullet.cpp.obj | lib\UmbraCore_Debug.lib lib\glfw3_Debug.lib lib\libglew32d.lib lib\LinearMath_Debug.lib lib\BulletCollision_Debug.lib lib\BulletDynamics_Debug.lib || lib\BulletCollision_Debug.lib lib\BulletDynamics_Debug.lib lib\LinearMath_Debug.lib lib\UmbraCore_Debug.lib lib\glfw3_Debug.lib lib\libglew32d.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
