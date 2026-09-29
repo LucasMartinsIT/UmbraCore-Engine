@@ -6,6 +6,11 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+// --- INCLUDES DA IMGUI E EDITOR ---
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
+#include "editor/Editor.h"
 
 
 namespace eng
@@ -100,6 +105,15 @@ namespace eng
 			return false;
 		}
 
+		// --- INICIALIZAÇÃO DA IMGUI ---
+		IMGUI_CHECKVERSION();
+		ImGui::CreateContext();
+		ImGuiIO& io = ImGui::GetIO(); (void)io;
+		io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
+		ImGui::StyleColorsDark();
+		ImGui_ImplGlfw_InitForOpenGL(m_window, true);
+		ImGui_ImplOpenGL3_Init("#version 330 core");
+
 		m_graphicsAPI.Init();
 		m_physicsManager.Init();
 		m_audioManager.Init();
@@ -116,6 +130,10 @@ namespace eng
 		// The classic Game Loop starts here
 		m_lastTimePoint = std::chrono::high_resolution_clock::now();
 
+		eng::Editor sceneEditor;
+		bool isEditorMode = true;
+		bool tabWasPressed = false; // Para evitar que a tecla ative/desative múltiplas vezes por frame
+
 		while (!glfwWindowShouldClose(m_window) && !m_application->NeedsToBeClosed())
 		{
 			glfwPollEvents();//Process events
@@ -124,9 +142,25 @@ namespace eng
 			float deltaTime = std::chrono::duration<float>(now - m_lastTimePoint).count();
 			m_lastTimePoint = now;
 
-			m_physicsManager.Update(deltaTime);
+			// Lógica da Tecla TAB ANTES da atualização da Aplicação/Física
+			// Usamos glfwGetKey para ler o input crú e evitar atrasos do InputManager
+			bool isTabPressed = (glfwGetKey(m_window, GLFW_KEY_TAB) == GLFW_PRESS);
 
-			m_application->Update(deltaTime);
+			if (isTabPressed && !tabWasPressed) {
+				isEditorMode = !isEditorMode;
+			}
+			tabWasPressed = isTabPressed;
+
+			// Se estiver no Modo Editor, a física e a lógica do jogo são pausadas.
+			// Isso impede que o seu PlayerController sobrescreva o estado do cursor!
+			if (!isEditorMode) {
+				m_physicsManager.Update(deltaTime);
+				m_application->Update(deltaTime);
+			}
+
+			// Força o cursor para o estado correto TODOS OS FRAMES
+			int cursorMode = isEditorMode ? GLFW_CURSOR_NORMAL : GLFW_CURSOR_DISABLED;
+			glfwSetInputMode(m_window, GLFW_CURSOR, cursorMode);
 
 			m_graphicsAPI.SetClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 			m_graphicsAPI.ClearBuffers();
@@ -158,10 +192,22 @@ namespace eng
 
 			m_renderQueue.Draw(m_graphicsAPI, cameraData, lights);
 
+			// --- RENDERIZAÇÃO DA IMGUI ---
+			ImGui_ImplOpenGL3_NewFrame();
+			ImGui_ImplGlfw_NewFrame();
+			ImGui::NewFrame();
+
+			// Se estiver no modo editor, desenha a interface
+			if (isEditorMode) {
+				sceneEditor.Render(m_currentScene.get());
+			}
+
+			ImGui::Render();
+			ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+			// -----------------------------
 
 			glfwSwapBuffers(m_window);//Handle the rendering swaping buffers
 
-			
 			m_inputManager.SetMousePositionChanged(false);
 		}
 	}
@@ -170,6 +216,11 @@ namespace eng
 	{
 		if (m_application)
 		{
+			// --- LIMPEZA DA IMGUI (antes de glfwTerminate) ---
+			ImGui_ImplOpenGL3_Shutdown();
+			ImGui_ImplGlfw_Shutdown();
+			ImGui::DestroyContext();
+
 			m_application->Destroy();
 			// reset() destroys the object held by the unique_ptr and safely frees the memory
 			m_application.reset();
