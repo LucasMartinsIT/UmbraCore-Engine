@@ -129,4 +129,105 @@ namespace eng
 			btScalar(impulse.x), btScalar(impulse.y), btScalar(impulse.z)
 		));
 	}
+
+	void RigidBody::SetMass(float mass)
+	{
+		if (m_mass == mass || !m_body) return;
+
+		auto& physicsManager = Engine::GetInstance().GetPhysicsManager();
+		bool wasInWorld = m_addedToWorld;
+
+		if (wasInWorld) physicsManager.RemoveRigidBody(this);
+
+		m_mass = mass;
+		if (m_type == BodyType::Dynamic)
+		{
+			btVector3 inertia(0, 0, 0);
+			if (mass > 0.0f && m_collider->GetShape())
+			{
+				m_collider->GetShape()->calculateLocalInertia(btScalar(mass), inertia);
+			}
+			m_body->setMassProps(btScalar(mass), inertia);
+			m_body->updateInertiaTensor();
+		}
+
+		if (wasInWorld) physicsManager.AddRigidBody(this);
+		m_body->activate(true);
+	}
+
+	void RigidBody::SetCollider(const std::shared_ptr<Collider>& collider)
+	{
+		if (!collider || !m_body) return;
+
+		auto& physicsManager = Engine::GetInstance().GetPhysicsManager();
+		bool wasInWorld = m_addedToWorld;
+
+		if (wasInWorld) physicsManager.RemoveRigidBody(this);
+
+		m_collider = collider;
+		m_body->setCollisionShape(m_collider->GetShape());
+
+		if (m_type == BodyType::Dynamic && m_mass > 0.0f)
+		{
+			btVector3 inertia(0, 0, 0);
+			m_collider->GetShape()->calculateLocalInertia(btScalar(m_mass), inertia);
+			m_body->setMassProps(btScalar(m_mass), inertia);
+			m_body->updateInertiaTensor();
+		}
+
+		if (wasInWorld) physicsManager.AddRigidBody(this);
+		m_body->activate(true);
+	}
+
+	void RigidBody::SetFriction(float friction)
+	{
+		m_friction = friction;
+		if (m_body)
+		{
+			m_body->setFriction(friction);
+		}
+	}
+
+	void RigidBody::SetType(BodyType type)
+	{
+		if (m_type == type || !m_body) return;
+
+		auto& physicsManager = Engine::GetInstance().GetPhysicsManager();
+		bool wasInWorld = m_addedToWorld;
+
+		// 1. Remove do mundo físico temporariamente para limpar o cache da Bullet
+		if (wasInWorld) physicsManager.RemoveRigidBody(this);
+
+		m_type = type;
+		int flags = m_body->getCollisionFlags();
+
+		if (m_type == BodyType::Static) {
+			flags |= btCollisionObject::CF_STATIC_OBJECT;
+			flags &= ~btCollisionObject::CF_KINEMATIC_OBJECT;
+			m_body->setMassProps(0, btVector3(0, 0, 0));
+		}
+		else if (m_type == BodyType::Kinematic) {
+			flags |= btCollisionObject::CF_KINEMATIC_OBJECT;
+			flags &= ~btCollisionObject::CF_STATIC_OBJECT;
+			m_body->setMassProps(0, btVector3(0, 0, 0));
+			m_body->setActivationState(DISABLE_DEACTIVATION);
+		}
+		else if (m_type == BodyType::Dynamic) {
+			flags &= ~(btCollisionObject::CF_STATIC_OBJECT | btCollisionObject::CF_KINEMATIC_OBJECT);
+			btVector3 inertia(0, 0, 0);
+			if (m_mass > 0.0f && m_collider->GetShape()) {
+				m_collider->GetShape()->calculateLocalInertia(btScalar(m_mass), inertia);
+			}
+			m_body->setMassProps(btScalar(m_mass), inertia);
+		}
+
+		m_body->setCollisionFlags(flags);
+		m_body->updateInertiaTensor();
+		m_body->clearForces(); // Zera forças antigas
+		m_body->setLinearVelocity(btVector3(0, 0, 0));
+
+		// 2. Re-adiciona ao mundo para ele ser colocado na lista correta de gravidade
+		if (wasInWorld) physicsManager.AddRigidBody(this);
+		m_body->activate(true);
+	}
 }

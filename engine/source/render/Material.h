@@ -22,6 +22,8 @@ namespace eng
         void Bind();
 
         static std::shared_ptr<Material> Load(const std::string& path);
+        bool HasFloat3Param(const std::string& name) const;
+        glm::vec3 GetFloat3Param(const std::string& name) const;
 
     private:
         std::shared_ptr<ShaderProgram> m_shaderProgram;

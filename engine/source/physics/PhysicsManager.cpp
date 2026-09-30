@@ -36,15 +36,12 @@ namespace eng
 
     void PhysicsManager::AddRigidBody(RigidBody* body)
     {
-        if (!body || !m_world)
-        {
-            return;
-        }
+        if (!body || !m_world) return;
 
         if (auto rigidBody = body->GetBody())
         {
-            m_world->addRigidBody(rigidBody, btBroadphaseProxy::StaticFilter,
-                btBroadphaseProxy::AllFilter);
+            // A Bullet Physics atribui automaticamente os filtros Static ou Default baseados na massa!
+            m_world->addRigidBody(rigidBody);
             body->SetAddedToWorld(true);
         }
     }

@@ -20,6 +20,8 @@ namespace eng
         void SetMaterial(const std::shared_ptr<Material>& material);
         void SetMesh(const std::shared_ptr<Mesh>& mesh);
 
+        std::shared_ptr<Material> GetMaterial() const { return m_material; }
+
     private:
         std::shared_ptr<Material> m_material;
         std::shared_ptr<Mesh> m_mesh;

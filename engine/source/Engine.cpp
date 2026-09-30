@@ -144,7 +144,7 @@ namespace eng
 
 			// Lógica da Tecla TAB ANTES da atualização da Aplicação/Física
 			// Usamos glfwGetKey para ler o input crú e evitar atrasos do InputManager
-			bool isTabPressed = (glfwGetKey(m_window, GLFW_KEY_TAB) == GLFW_PRESS);
+			bool isTabPressed = (glfwGetKey(m_window, GLFW_KEY_F1) == GLFW_PRESS);
 
 			if (isTabPressed && !tabWasPressed) {
 				isEditorMode = !isEditorMode;

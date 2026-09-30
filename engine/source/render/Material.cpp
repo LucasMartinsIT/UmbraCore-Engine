@@ -156,4 +156,18 @@ namespace eng
 
         return result;
     }
+
+    bool Material::HasFloat3Param(const std::string& name) const
+    {
+        return m_float3Params.find(name) != m_float3Params.end();
+    }
+
+    glm::vec3 Material::GetFloat3Param(const std::string& name) const
+    {
+        auto it = m_float3Params.find(name);
+        if (it != m_float3Params.end())
+            return it->second;
+
+        return glm::vec3(1.0f, 1.0f, 1.0f);
+    }
 }

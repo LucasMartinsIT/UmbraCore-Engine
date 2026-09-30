@@ -34,6 +34,17 @@ namespace eng
 
 		void ApplyImpulse(const glm::vec3& impulse);
 
+		std::shared_ptr<Collider> GetCollider() const { return m_collider; }
+		void SetCollider(const std::shared_ptr<Collider>& collider);
+
+		float GetMass() const { return m_mass; }
+		void SetMass(float mass);
+
+		float GetFriction() const { return m_friction; }
+		void SetFriction(float friction);
+
+		void SetType(BodyType type);
+
 	private:
 		std::unique_ptr<btRigidBody> m_body;
 		BodyType m_type = BodyType::Static;
