@@ -4,7 +4,6 @@
 [![OpenGL](https://img.shields.io/badge/OpenGL-3.3-5586A4.svg?style=flat&logo=opengl)](https://www.opengl.org/)
 [![ImGui](https://img.shields.io/badge/UI-Dear_ImGui-red.svg?style=flat)](https://github.com/ocornut/imgui)
 [![Bullet Physics](https://img.shields.io/badge/Physics-Bullet-green.svg?style=flat)](https://github.com/bulletphysics/bullet3)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **UmbraCore** is a custom 3D game engine built from scratch using C++ and OpenGL. Developed as a Computer Engineering capstone project (TCC) at Centro Universitário Facens, it features a modular Entity-Component System (ECS), a fully integrated real-time Editor, and a robust procedural dungeon generation system.
 
