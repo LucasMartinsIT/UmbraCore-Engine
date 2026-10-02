@@ -78,6 +78,10 @@ set(PROJECT_SOURCE_FILES
   thirdparty/imgui/imgui_demo.cpp
   thirdparty/imgui/imgui_impl_glfw.cpp
   thirdparty/imgui/imgui_impl_opengl3.cpp
+
+  #Procedural generator
+  source/scene/ProceduralGenerator.h
+  source/scene/ProceduralGenerator.cpp
 )
 
 # Group files according to files organization
